@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<style>
+    fieldset
+    {
+        background-color: rgb(214, 207, 207);
+    }
+    form
+    {
+        padding: 0px 200px 0px 750px;
+        margin: 50px;
+    }
+    input[type=text]
+    {
+        width: 90%;
+        height: 30px;
+        margin: 10px;
+    }
+    input[type=password]
+    {
+        width: 90%;
+        height: 30px;
+        margin: 10px;
+    }
+    input[type=email]
+    {
+        width: 90%;
+        height: 30px;
+        margin: 10px;
+    }
+    input[type=reset]
+    {
+        float: right;
+        margin-right: 40px;
+        background-color: rgb(123, 231, 250);
+    }
+    input[type=reset]:hover
+    {
+        background-color: red;
+    }
+    button
+    {
+        width: 200px;
+        height: 50px;
+        background-color: rgb(123, 231, 250);
+    }
+    button:hover
+    {
+        background-color: palegreen;
+    }
+    .para
+    {
+        font-size: 21px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .pic
+    {
+        margin-top: 70px;
+        position: fixed;
+    }
+</style>
+<body>
+    <div class="pic">
+        <img src="back_image.jpg" alt="Img not found" >
+    </div>
+    <form>
+        <fieldset>
+          <h1><center><b>Sign Up</b></center></h1> 
+          <p class="para">First name: </p>
+          <input type="text" placeholder="Enter your first name...">
+          <br>
+          <p class="para">Last name: </p>
+          <input type="text" placeholder="Enter your last name...">
+          <br>
+          <p class="para">E-mail id: </p>
+          <input type="email" placeholder="Enter your e-mail...">
+          <br>
+          <p class="para">Create Password: </p>
+          (Password must be in between 6-50 character)
+          <input type="password" placeholder="Enter your password...">
+          <br>
+          <p class="para">Confirm Password: </p>
+          <input type="password" placeholder="Re-enter your password...">
+          <br>
+          <input type="checkbox" name="chbox" id="cb"> Remember Me 
+          <input type="reset" value="Reset">
+          <br><br><br>
+          <center><button>Sign Up</button></center>
+          <br>
+          <p>By clicking this button, you agree to our <u> Terms of service </u> and  <u> Privacy Policy.</u></p>
+
+        </fieldset>
+    </form>
+</body>
+</html>
